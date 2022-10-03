@@ -3,6 +3,7 @@ html, body, *{
     margin: 0;
     box-sizing: border-box;
     font-size: 62.5%; /* Normally 100% is 16 px we want the size to be 10px so we do 62.5 */
+    font-family: 'Oxygen', sans-serif;
 }
 
 .header-title{
@@ -19,29 +20,22 @@ html, body, *{
 .parent{
     font-size: 40px;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    columns: 3;
 }
 
 .child-1{
-    border: 3px solid green;
-    height: 800px;
-    flex-grow: 2;
+    border: 3px solid rgb(96, 96, 212);
+    height: fit-content;
+    flex-grow: 1;
 }
-.child-2{
-    border: 3px solid yellow;
-    height: 800px;
-    flex-grow: 2;
+
+.img{
+    width: 40rem;
+    height: 60rem;
 }
-.child-3{
-    border: 3px solid blue;
-    height: 800px;
-    flex-grow: 2;
-}
-.px-size{
-    font-size: 20px;
-}
+
 .rem-size{
     font-size: 2rem;
 }
