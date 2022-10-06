@@ -4,6 +4,7 @@ html, body, *{
     box-sizing: border-box;
     font-size: 62.5%; /* Normally 100% is 16 px we want the size to be 10px so we do 62.5 */
     font-family: 'Oxygen', sans-serif;
+    margin: auto;
 }
 
 .header-title{
@@ -20,7 +21,7 @@ html, body, *{
 .parent{
     font-size: 40px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
@@ -36,32 +37,33 @@ html, body, *{
     font-size: 2rem;
 }
 
-.Morningbox{
+.Morning{
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-width: 80%;
-border: solid #5B6DCD 10px;
-padding: 5px;
+    width: 26%;
+    border: solid #5B6DCD 5px;
+    padding: 1rem;
 }
 
-.Afternoonbox{
+.Afternoon{
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-width: 80%;
-border: solid #5B6DCD 10px;
-padding: 5px;
+    width: 26%;
+    border: solid #5B6DCD 5px;
+    padding: 1rem;
 }
 
-.Nightbox{
+.Night{
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-width: 80%;
-border: solid #5B6DCD 10px;
-padding: 5px;
+    width: 26%;
+    border: solid #5B6DCD 5px;
+    padding: 1rem;
 }
+
 
 
 
