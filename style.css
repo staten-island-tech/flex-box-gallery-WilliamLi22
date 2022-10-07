@@ -29,9 +29,9 @@ html, body, +{
     display: flex;
     text-align: center;
     flex-direction: column;
-    width: 30%;
-    height: 20%;
-    border: 1px solid rgb(159, 193, 236);
+    width: 25%;
+    border: 10px solid rgb(159, 193, 236);
+    border-radius: 1rem;
     background-color: rgb(224, 234, 255) ;
     color:rgb(159, 193, 236);
     box-shadow: 5px 10px 10px rgb(144, 180, 214);
