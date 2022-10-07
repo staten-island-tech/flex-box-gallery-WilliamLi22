@@ -12,15 +12,14 @@ html, body, +{
 
 .header-title{
     background-color: #B2DFDB;
-    background-position: center;
     background-size: cover;
     color: white;
-    height: 17vh;
-    border-radius: 10px;
+    height: 7.5rem;
+    border-radius: 1rem;
     text-align: center;
     font-size: 6rem;
-    flex-grow: 1;
 }
+
 .parent{
     display: flex;
     justify-content: space-evenly;
@@ -34,37 +33,6 @@ html, body, +{
     height: 20%;
     border: 2px solid rgb(159, 193, 236);
     background-color: rgb(224, 234, 255) ;
-    color:rgb(127, 169, 225);
-    box-shadow: 1px 8px 10px rgb(144, 180, 214);
+    color:rgb(159, 193, 236);
+    box-shadow: 5px 10px 10px rgb(144, 180, 214);
 }
-
-.rem-size{
-    font-size: 2rem;
-}
-
-@media screen and (max-width:1280px){
-    .menu-container{
-        flex-direction: row;
-    }
-    .menu-card{
-        width: 45%;
-    }
-    .header-title{
-        font-size: 20px;
-    }
-}
-
-display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 30%;
-    justify-content: space-evenly;
-    align-items: center;
-    border: 2px solid rgb(159, 193, 236);
-    background-color: rgb(224, 234, 255) ;
-    color:rgb(99, 150, 216);
-    box-shadow: 1px 8px 10px rgb(144, 180, 214);
-
-
-
-
