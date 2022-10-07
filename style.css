@@ -4,7 +4,10 @@ html, body, *{
     box-sizing: border-box;
     font-size: 62.5%; /* Normally 100% is 16 px we want the size to be 10px so we do 62.5 */
     font-family: 'Oxygen', sans-serif;
-    margin: auto;
+}
+
+.body{
+    background-color: #c8eeeb;
 }
 
 .header-title{
@@ -19,50 +22,35 @@ html, body, *{
     flex-grow: 1;
 }
 .parent{
-    font-size: 40px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    border: #B2DFDB;
+    justify-content: space-evenly;
 }
 
-.img{
-    width: 40rem;
-    height: 60rem;
+.sky{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 30%;
+    border: 2px solid rgb(159, 193, 236);
+    background-color: rgb(224, 234, 255) ;
+    color:rgb(127, 169, 225);
+    box-shadow: 1px 8px 10px rgb(144, 180, 214);
 }
 
 .rem-size{
     font-size: 2rem;
 }
 
-.Morning{
-    display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
-    width: 26%;
-    border: solid #5B6DCD 5px;
-    padding: 1rem;
-}
-
-.Afternoon{
-    display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
-    width: 26%;
-    border: solid #5B6DCD 5px;
-    padding: 1rem;
-}
-
-.Night{
-    display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
-    width: 26%;
-    border: solid #5B6DCD 5px;
-    padding: 1rem;
-}
+display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30%;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid rgb(159, 193, 236);
+    background-color: rgb(224, 234, 255) ;
+    color:rgb(99, 150, 216);
+    box-shadow: 1px 8px 10px rgb(144, 180, 214);
 
 
 
