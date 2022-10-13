@@ -23,6 +23,7 @@ html, body, +{
 .parent{
     display: flex;
     justify-content: space-evenly;
+    margin: 5rem 1rem;
 }
 
 .sky{
