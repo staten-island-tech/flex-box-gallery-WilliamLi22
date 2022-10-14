@@ -18,6 +18,7 @@ html, body, +{
     border-radius: 1rem;
     text-align: center;
     font-size: 6rem;
+    transition: all 2s;
 }
 
 .header-title:hover{
@@ -37,10 +38,48 @@ html, body, +{
     flex-direction: column;
     width: 25%;
     border: 10px solid rgb(159, 193, 236);
-    border-radius: 1rem;
-    background-color: rgb(224, 234, 255) ;
+    border-radius: 1.5rem;
+    background-color: rgb(159, 193, 236) ;
     color:rgb(159, 193, 236);
     box-shadow: 5px 10px 10px rgb(144, 180, 214);
+    transition: all 0.3s;
+}
+.sky:hover{
+    transform: scale(1.1);
 }
 
+.cloud1{
+    border-radius: 1rem;
+}
 
+.cloud2{
+    border-radius: 1rem;
+}
+
+.cloud3{
+    border-radius: 1rem;
+}
+
+.cloud4{
+    border-radius: 1rem;
+}
+
+.cloud5{
+    border-radius: 1rem;
+}
+
+.cloud6{
+    border-radius: 1rem;
+}
+
+.cloud7{
+    border-radius: 1rem;
+}
+
+.cloud8{
+    border-radius: 1rem;
+}
+
+.cloud9{
+    border-radius: 1rem;
+}
