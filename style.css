@@ -32,6 +32,11 @@ html, body, +{
     margin: 5rem 1rem;
 }
 
+.parent1:hover .sky:not(:hover){
+    transform: scale(0.9);
+    opacity: 0.5;
+}
+
 .sky{
     display: flex;
     text-align: center;
@@ -48,38 +53,72 @@ html, body, +{
     transform: scale(1.1);
 }
 
-.cloud1{
+.cloud{
     border-radius: 1rem;
 }
 
-.cloud2{
-    border-radius: 1rem;
+.cloud1:hover{
+    rotate: 360deg;
 }
 
-.cloud3{
-    border-radius: 1rem;
+.cloud2:hover{
+    transform: matrix(1.1, 0.2, -0.5, 0.85, 10, 10);
 }
 
-.cloud4{
-    border-radius: 1rem;
+.cloud3:hover{
+    rotate: -360deg;
 }
 
-.cloud5{
-    border-radius: 1rem;
+.cloud4:hover{
+    transform: scale(1.3);
 }
 
-.cloud6{
-    border-radius: 1rem;
+.cloud5:hover{
+    translate: 0rem -2.5rem;
 }
 
-.cloud7{
-    border-radius: 1rem;
+.cloud6:hover{
+    transform: scale(0.7);
 }
 
-.cloud8{
-    border-radius: 1rem;
+
+.animation{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 0.5rem;
+    animation: test 10s infinite alternate;
+    position: relative;
 }
 
-.cloud9{
-    border-radius: 1rem;
+@keyframes test{
+    0%{
+        left: 0%;
+        bottom: 10%;
+        background-color: rgb(242, 191, 141);
+    }
+    25%{
+        left: 25%;
+        bottom: 10%;
+        rotate: 90deg;
+        background-color: rgb(227, 102, 102);
+    }
+    50%{
+        left: 50%;
+        bottom: 10%;
+        rotate: 180deg;
+        background-color: rgb(158, 33, 125);
+    }
+    75%{
+        left: 75%;
+        bottom: 10%;
+        rotate: 270deg;
+        background-color: rgb(67, 52, 117);
+    }
+    100%{
+        left: 95%;
+        bottom: 10%;
+        rotate: 360deg;
+        background-color: rgb(44, 89, 138);
+    }
+
 }
