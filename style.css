@@ -122,9 +122,24 @@ html, body, *{
 
 }
 
+@media screen and (max-width: 2048px) {
+    .sky{
+        flex-direction: column;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .sky{
+        flex-direction: column;
+        width: 30%;
+    }
+}
+
+
 @media screen and (max-width: 390px) {
     .sky{
         flex-direction: column;
-        width: 60%;
+        width: 30%;
     }
 }
