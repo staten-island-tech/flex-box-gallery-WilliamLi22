@@ -137,7 +137,7 @@ html, body, *{
 }
 
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 1170px) {
     .sky{
         flex-direction: column;
         width: 30%;
