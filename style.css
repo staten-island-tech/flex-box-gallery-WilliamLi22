@@ -122,24 +122,34 @@ html, body, *{
 
 }
 
-@media screen and (max-width: 2048px) {
-    .sky{
-        flex-direction: column;
-        width: 30%;
-    }
+@media screen and (max-width:600px) {
+  .parent{
+   flex-direction: column;
+  }
+  .sky{
+   width: 95%;
+   height: 90%;
+   margin: 1rem;
+  }
 }
 
-@media screen and (max-width: 1920px) {
-    .sky{
-        flex-direction: column;
-        width: 30%;
-    }
-}
+@media only screen and (min-device-width : 820px) and (max-device-width : 1080px) 
+and (orientation : landscape) {
+   .parent{
+   flex-direction: column;
+  }
+  .sky{
+   width: 30%;
+   height: 30%;
+  }
+ }
 
-
-@media screen and (max-width: 1170px) {
-    .sky{
-        flex-direction: column;
-        width: 30%;
-    }
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .parent{
+   flex-direction: row;
+  }
+  .sky {
+   width: 30%;
+   height: 30%;
+  }
 }
